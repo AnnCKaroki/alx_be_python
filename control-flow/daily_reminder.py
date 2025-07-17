@@ -22,12 +22,4 @@ elif time_bound == "no" and priority == "low":
 elif time_bound != "no":
     print("Invalid time bound input!")
 
-
-if priority == "low" and time_bound == "no":
-    starter = "Note:"
-else:
-    starter = "Reminder"
-
-
-
-print(starter, ''.join(reminder_message))
+print('Reminder ', ''.join(reminder_message))
