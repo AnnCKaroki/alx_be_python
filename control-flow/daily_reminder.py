@@ -10,7 +10,7 @@ match priority:
     case "medium":
         reminder_message.append("medium priority task ")
     case "low":
-        reminder_message.append("low priority task ")
+        reminder_message.append("low priority task")
     case _:
         reminder_message.append("task of unknown priority")
         print("Error: Invalid priority entered")
@@ -22,4 +22,8 @@ elif time_bound == "no" and priority == "low":
 elif time_bound != "no":
     print("Invalid time bound input!")
 
-print('Reminder ', ''.join(reminder_message))
+
+if priority == "low" and time_bound == "no":
+    print(f"Note: {' '.join(reminder_message)}")
+else:
+    print(f"Reminder: {''.join(reminder_message)}")
