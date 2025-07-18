@@ -26,4 +26,4 @@ elif time_bound != "no":
 if priority == "low" and time_bound == "no":
     print(f"Note: {' '.join(reminder_message)}")
 else:
-    print(f"Reminder: {''.join(reminder_message)}")
+    print(f"Reminder: {' '.join(reminder_message)}")
