@@ -9,8 +9,8 @@ display_current_datetime()
 
 def calculate_future_age():
     future_date = int(input("Enter number of days to add to the current date: "))
-    new_date = current_date + timedelta(days= future_date)
-    new_date = new_date.strftime("%Y-%m-%d")
-    print(f"Future date: {new_date}")
+    calculate_future_age = current_date + timedelta(days= future_date)
+    calculate_future_age = calculate_future_age.strftime("%Y-%m-%d")
+    print(f"Future date: {calculate_future_age}")
 
 calculate_future_age()
