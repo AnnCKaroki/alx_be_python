@@ -12,4 +12,4 @@ def safe_divide(numerator, denominator):
         return "Error: Non-numeric input provided"
 
     except ZeroDivisionError:
-        return "Error: Cannot divide by zero"
+        return "Error: Cannot divide by zero."
