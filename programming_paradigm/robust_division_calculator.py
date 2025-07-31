@@ -8,8 +8,6 @@ def safe_divide(numerator, denominator):
 
         print(f"The result of the division is {result}")
 
-        return result
-
     except ValueError:
         return "Error: Please enter numeric values only."
 
